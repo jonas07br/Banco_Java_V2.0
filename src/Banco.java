@@ -17,4 +17,10 @@ public class Banco {
         System.out.println(listaClientes);
     }
 
+    public String getNomeBanco() {
+        return nomeBanco;
+    }
+
+    
+
 }
