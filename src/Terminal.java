@@ -1,8 +1,9 @@
 public class Terminal {
     public static void main(String[] args) {
-
+        Banco bnb = new Banco();
         Cliente jonas = new Cliente("Jonas Rafael Silva Cavalcanti", 123123);
         
+        bnb.addCliente(jonas);
         Conta cc = new ContaCorrente(jonas);
         Conta cp = new ContaPoupanca(jonas);
 
@@ -14,7 +15,8 @@ public class Terminal {
 
         cc.transferir(50, cp);
 
-        cc.imprimirExtrato();
-        cp.imprimirExtrato();
+        //cc.imprimirExtrato();
+        //cp.imprimirExtrato();
+        bnb.listaClientes();
     }
 }
