@@ -40,7 +40,8 @@ public abstract class Conta implements IConta{
     public double getSaldo() {
         return saldo;
     }
-
+    
+    //print de informaçoes gerais
     public void imprimirInfosGerais(){
         System.out.println("Nome do Cliente:"+this.cliente.getNome());
         System.out.println("Agência:"+getAgencia());
