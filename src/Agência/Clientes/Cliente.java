@@ -1,3 +1,4 @@
+package Agência.Clientes;
 public class Cliente {
 
     private String nome;

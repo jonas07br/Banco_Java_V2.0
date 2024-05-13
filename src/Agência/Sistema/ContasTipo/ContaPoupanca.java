@@ -1,3 +1,7 @@
+package Agência.Sistema.ContasTipo;
+import Agência.Clientes.Cliente;
+import Agência.Sistema.Conta;
+
 public class ContaPoupanca extends Conta{
 
     public ContaPoupanca(Cliente cliente) {

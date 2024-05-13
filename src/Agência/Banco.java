@@ -1,5 +1,8 @@
+package Agência;
 import java.util.ArrayList;
 import java.util.List;
+
+import Agência.Clientes.Cliente;
 
 public class Banco {
 

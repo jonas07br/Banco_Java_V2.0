@@ -1,3 +1,9 @@
+import Agência.Banco;
+import Agência.Clientes.Cliente;
+import Agência.Sistema.Conta;
+import Agência.Sistema.ContasTipo.ContaCorrente;
+import Agência.Sistema.ContasTipo.ContaPoupanca;
+
 public class Terminal {
     public static void main(String[] args) {
         Banco bnb = new Banco();
