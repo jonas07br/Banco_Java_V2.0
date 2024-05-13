@@ -11,7 +11,7 @@ public class Banco {
     }
 
     public void addCliente(Cliente cliente){
-        this.listaClientes.add(new Cliente());
+        this.listaClientes.add(cliente);
     }
     public void listaClientes(){
         System.out.println(listaClientes);
