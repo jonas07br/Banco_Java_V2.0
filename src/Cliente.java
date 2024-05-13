@@ -3,10 +3,6 @@ public class Cliente {
     private String nome;
     private int identidade;
 
-    public Cliente(){
-        this.nome = "Cliente da silva";
-        this.identidade= 123123;
-    }
 
     public Cliente(String nome, int identidade) {
         this.nome = nome;
@@ -31,7 +27,7 @@ public class Cliente {
     }
     //ToStringMethod
     public String toString() {
-        return "Cliente [nome=" + nome + "]";
+        return "Cliente [nome= " + nome + " ]";
     }
     
     
