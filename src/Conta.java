@@ -1,7 +1,8 @@
-public class Conta implements IConta{
+public abstract class Conta implements IConta{
     
     private static final int AGENCIA_PADRAO = 61;
     private static int numeral;
+    
     protected int agencia;
     protected int numConta;
     protected double saldo;
@@ -15,6 +16,7 @@ public class Conta implements IConta{
         this.saldo=0;
     }
 
+    //funcoes implementadas
     public void sacar(double valorSaque){
         saldo-=valorSaque;
     }
@@ -24,14 +26,8 @@ public class Conta implements IConta{
     public void transferir(double valor){
         this.sacar(valor);
     }
-
-    public void imprimirExtrato() {
-        
-    }
-
+    
     
 
-   
-    
     
 }
